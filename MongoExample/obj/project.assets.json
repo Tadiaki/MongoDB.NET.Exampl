@@ -1239,24 +1239,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/patrickstolc/.nuget/packages/": {}
+    "C:\\Users\\n0m1z\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/patrickstolc/RiderProjects/MongoExample/MongoExample/MongoExample.csproj",
+      "projectUniqueName": "C:\\Users\\n0m1z\\RiderProjects\\MongoDB.NET.Example\\MongoExample\\MongoExample.csproj",
       "projectName": "MongoExample",
-      "projectPath": "/Users/patrickstolc/RiderProjects/MongoExample/MongoExample/MongoExample.csproj",
-      "packagesPath": "/Users/patrickstolc/.nuget/packages/",
-      "outputPath": "/Users/patrickstolc/RiderProjects/MongoExample/MongoExample/obj/",
+      "projectPath": "C:\\Users\\n0m1z\\RiderProjects\\MongoDB.NET.Example\\MongoExample\\MongoExample.csproj",
+      "packagesPath": "C:\\Users\\n0m1z\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\n0m1z\\RiderProjects\\MongoDB.NET.Example\\MongoExample\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/patrickstolc/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\n0m1z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1299,6 +1307,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1307,7 +1333,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
